@@ -1,0 +1,9 @@
+.ruff_cache/
+.venv/
+.venv
+.vscode/
+bookmarks/
+dist/
+__pycache__/
+ruff.toml
+Thumbs.db
