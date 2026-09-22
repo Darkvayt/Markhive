@@ -9,8 +9,7 @@
 <div align="center">
 <h1>Markhive</h1>
 
-**Browser bookmark manager.**
-For quickly tidying up.
+**Browser bookmark manager.**<br>For quickly tidying up.
 
 </div>
 
@@ -134,8 +133,7 @@ markhive/
 ├── lang/                # Language dictionaries (.json)
 └── translations/        # Qt system translations (qtbase_*.qm)
 ```
-**Opening the project and launching from source**
-The project uses the `uv` package manager for organized management.
+**Opening the project and launching from source**<br>The project uses the `uv` package manager for organized management.
 ```bash
 git clone https://github.com/Darkvayt/Markhive.git
 cd Markhive
@@ -143,8 +141,7 @@ pip install uv
 uv sync
 uv run python src/markhive/main.py
 ```
-**How ​​to add a new interface language**
-`*.json` dictionary structure
+**How ​​to add a new interface language**<br>`*.json` dictionary structure
 ```bash
 {
   "language_name": "English",
@@ -167,8 +164,7 @@ uv run python src/markhive/main.py
 4. Place the file in the `lang/` folder.
 5. Launch the program—the new language will automatically appear in the **View → Language** menu.
 
-**Building into an EXE**
-To ensure standalone operation, the build is performed using the `nuitka` package.
+**Building into an EXE**<br>To ensure standalone operation, the build is performed using the `nuitka` package.
 ```bash
 cd Markhive
 uv add nuitka
