@@ -1,0 +1,20 @@
+Markhive
+Copyright (c) 2026 Darkvayt
+Licensed under the MIT License.
+
+This application uses the following third-party components:
+
+Python
+Copyright (c) Python Software Foundation
+Licensed under the Python Software Foundation License.
+
+PySide6 (Qt for Python)
+Copyright (c) The Qt Company Ltd.
+Licensed under the GNU Lesser General Public License v3.0.
+
+Qt
+Copyright (c) The Qt Company Ltd.
+Licensed under the GNU Lesser General Public License v3.0.
+
+For the full text of the LGPL v3, see:
+https://www.gnu.org/licenses/lgpl-3.0.html

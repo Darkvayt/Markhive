@@ -26,6 +26,7 @@ rem ============ сборка ============
   --include-data-dir=src\markhive\icons=markhive\icons ^
   --include-data-dir=src\markhive\lang=markhive\lang ^
   --include-data-files=.venv\Lib\site-packages\PySide6\translations\qtbase_ru.qm=markhive\translations\qtbase_ru.qm ^
+  --include-data-files=THIRD_PARTY_LICENSES.txt=THIRD_PARTY_LICENSES.txt ^
   --include-qt-plugins=sensible ^
   --python-flag=-OO ^
   --lto=yes ^
@@ -37,7 +38,7 @@ rem ============ сборка ============
   --company-name=Darkvayt ^
   --product-name=Markhive ^
   --file-description="Markhive — менеджер закладок браузера" ^
-  --copyright="Copyright (c) 2026 Darkvayt" ^
+  --copyright="Copyright (c) 2026 Darkvayt. Licensed under MIT License." ^
   --product-version=!VERSION! ^
   --file-version=!VERSION!.0 ^
   src\markhive\main.py

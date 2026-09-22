@@ -144,6 +144,11 @@ class AboutDialog(QDialog):
         </span><br>
         <b>{tr("dialog.about.source")}:</b> <a href="{APP_REPO}" style="color:#8f97a6;">
         {APP_REPO}</a></p>
+        <p><b>Third-party:</b></p><span style="color:#8f97a6;">
+        Python (PSF License)<br>
+        PySide6 (LGPL v3)<br>
+        Qt (LGPL v3)
+        </span><br>
         """)
 
         layout = QVBoxLayout(self)
